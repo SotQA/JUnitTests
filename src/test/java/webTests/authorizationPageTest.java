@@ -1,6 +1,5 @@
 package webTests;
 
-import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -10,14 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.logging.LogManager;
-
-public class authorizationPageTest extends WebElements {
+public class authorizationPageTest {
     static WebDriver driver;
-
-    Logger logger = (Logger) LogManager.getLogManager();
-
-
 
     @BeforeAll
     public static void createObject() {
