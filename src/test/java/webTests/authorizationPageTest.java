@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class authorizationPage extends WebElements {
+public class authorizationPageTest extends WebElements {
     static WebDriver driver;
 
     @BeforeAll
